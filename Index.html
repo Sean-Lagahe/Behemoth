@@ -1,0 +1,93 @@
+<style>
+body {
+    background: #000;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.glow-title {
+    color: gold;
+    text-shadow: 0 0 10px gold, 0 0 20px gold;
+    letter-spacing: 4px;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.card {
+    background: #0d0d0d;
+    border: 1px solid gold;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 20px auto;
+    width: 80%;
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px gold;
+    transform: scale(1.03);
+}
+
+button {
+    background: gold;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: orange;
+    box-shadow: 0 0 15px orange;
+}
+
+input {
+    padding: 12px;
+    width: 80%;
+    margin: 10px;
+    background: black;
+    border: 1px solid gold;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    text-align: center;
+    border-bottom: 2px solid gold;
+    background: radial-gradient(circle, #111, #000);
+}
+
+</style>
+
+<header>
+    <h1 class="glow-title">BEHEMOTH</h1>
+    <p>⚡ Arène officielle de duel ⚡</p>
+</header>
+
+<div class="section">
+    <h2 class="glow-title">Bienvenue</h2>
+    <p>Entre dans l’arène et prouve ta suprématie.</p>
+</div>
+
+<div class="section">
+    <h2 class="glow-title">Tournois</h2>
+
+    <div class="card">
+        <h3>🔥 Tournoi Behemoth #1</h3>
+        <p>Date : 25 Mars</p>
+        <p>Format : TCG</p>
+        <button>⚔️ Rejoindre</button>
+    </div>
+
+</div>
+
+<div class="section">
+    <h2 class="glow-title">Inscription</h2>
+
+    <div class="card">
+        <input type="text" placeholder="Nom du duelliste"><br>
+        <input type="text"
